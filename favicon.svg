@@ -37,10 +37,10 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:window-width="1024"
-     inkscape:window-height="576"
+     inkscape:window-width="1000"
+     inkscape:window-height="582"
      inkscape:window-x="0"
-     inkscape:window-y="24"
+     inkscape:window-y="0"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata3032">
@@ -50,7 +50,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -65,34 +65,22 @@
       <g
          id="g3054"
          transform="matrix(0.8,0,0,0.8,26.252798,27.740431)">
-        <text
-           sodipodi:linespacing="125%"
-           id="text2985-5-7"
-           y="136.83217"
-           x="119.1153"
+        <g
            style="font-size:20px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000057;fill-opacity:1;stroke:none;font-family:Delicious;-inkscape-font-specification:Delicious Medium"
-           xml:space="preserve"><tspan
-             id="tspan3794-0"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000057;fill-opacity:1;font-family:Quicksand;-inkscape-font-specification:Quicksand"
-             y="136.83217"
-             x="119.1153"
-             sodipodi:role="line"><tspan
-               id="tspan2997-5-4"
-               style="font-size:20px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#575757;fill-opacity:1;font-family:Quicksand;-inkscape-font-specification:Quicksand Light">C</tspan></tspan></text>
-        <text
-           sodipodi:linespacing="125%"
-           id="text2985-5-0-9"
-           y="141.30215"
-           x="123.39095"
+           id="text2985-5-7">
+          <path
+             d="m 120.5753,129.71217 0,0 c 0,3.91999 3.26001,7.1 7.26,7.12 l 0,0 c 1.72,0 3.28,-0.6 4.54,-1.54 l 0,0 c 0.12,-0.1 0.16,-0.26 0.06,-0.36 l 0,0 c -0.1,-0.12 -0.26,-0.12 -0.38,-0.04 l 0,0 0,0 c -1.16,0.9 -2.62,1.42 -4.22,1.42 l 0,0 c -3.69999,0 -6.74,-2.94001 -6.74,-6.6 l 0,0 c 0,-3.62 3.04001,-6.56 6.74,-6.56 l 0,0 c 1.62,0 3.08,0.52 4.24,1.42 l 0,0 c 0.1,0.1 0.26,0.08 0.38,-0.04 l 0,0 c 0.08,-0.1 0.04,-0.26 -0.08,-0.36 l 0,0 c -1.22,-0.94 -2.82,-1.54 -4.54,-1.54 l 0,0 c -3.99999,0 -7.26,3.2 -7.26,7.08"
+             style="font-size:20px;font-weight:300;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#575757;font-family:Quicksand;-inkscape-font-specification:Quicksand Light"
+             id="path3186" />
+        </g>
+        <g
            style="font-size:20px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000057;fill-opacity:1;stroke:none;font-family:Delicious;-inkscape-font-specification:Delicious Medium"
-           xml:space="preserve"><tspan
-             id="tspan3794-6-1"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000057;fill-opacity:1;font-family:Quicksand;-inkscape-font-specification:Quicksand"
-             y="141.30215"
-             x="123.39095"
-             sodipodi:role="line"><tspan
-               id="tspan3796-3-1"
-               style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000057;fill-opacity:1;font-family:Quicksand;-inkscape-font-specification:Quicksand">S</tspan></tspan></text>
+           id="text2985-5-0-9">
+          <path
+             d="m 124.89095,139.30215 0,0 c 1.16,0.92 3.02001,2 5.16,2.02 l 0,0 c 1.4,0 2.66,-0.42 3.6,-1.1 l 0,0 c 0.94,-0.67999 1.58,-1.68 1.58,-2.8 l 0,0 c 0,-1.11999 -0.62,-2.04 -1.54,-2.64 l 0,0 c -0.92,-0.61999 -2.16,-1.02 -3.56,-1.28 l -0.04,0 0,0 c -1.26,-0.24 -2.3,-0.58 -3,-1.06 l 0,0 c -0.7,-0.47999 -1.02,-1 -1.04,-1.7 l 0,0 c 0,-0.71999 0.4,-1.4 1.1,-1.92 l 0,0 c 0.7,-0.49999 1.72,-0.84 2.86,-0.84 l 0,0 c 1.54,0 2.74,0.76001 3.84,1.48 l 0,0 c 0.2,0.14 0.48,0.08 0.6,-0.12 l 0,0 c 0.14,-0.22 0.08,-0.48 -0.12,-0.62 l 0,0 c -1.1,-0.71999 -2.48,-1.62 -4.32,-1.62 l 0,0 c -1.32,0 -2.5,0.38001 -3.38,1.02 l 0,0 c -0.88,0.64 -1.46,1.56001 -1.46,2.62 l 0,0 c 0,1.04 0.58,1.88001 1.44,2.44 l 0,0 c 0.86,0.58 2,0.94 3.3,1.18 l 0.04,0 0,0 c 1.36,0.26 2.48,0.64001 3.24,1.14 l 0,0 c 0.76,0.52 1.14,1.12001 1.14,1.92 l 0,0 c 0,0.78 -0.42,1.52001 -1.2,2.08 l 0,0 c -0.76,0.56 -1.86,0.92 -3.08,0.92 l 0,0 c -1.82,0.02 -3.56,-0.96 -4.6,-1.8 l 0,0 c -0.18,-0.16 -0.46,-0.14 -0.62,0.06 l 0,0 c -0.14,0.18 -0.12,0.46 0.06,0.62"
+             style="font-size:20px;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000057;font-family:Quicksand;-inkscape-font-specification:Quicksand"
+             id="path3183" />
+        </g>
       </g>
     </g>
   </g>
