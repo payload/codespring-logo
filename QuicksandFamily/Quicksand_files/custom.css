@@ -1,0 +1,727 @@
+/* @override http://dev.fontsquirrel.com/presentation/theme_site/css/custom.css */
+
+@import url(fleximum.css);
+@import url(grid_12-825-55-15.css);
+
+@font-face {
+    font-family: 'Megalopolis';
+    src: url('fonts/megalopolisextra-webfont.eot');
+    src: url('fonts/megalopolisextra-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/megalopolisextra-webfont.woff') format('woff'),
+         url('fonts/megalopolisextra-webfont.ttf') format('truetype'),
+         url('fonts/megalopolisextra-webfont.svg#MEgalopolisExtraRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+body {
+	background: #4b4b4b url(../images/background.gif) repeat-x 0 top;
+	font-family: Arial, Helvetica, Geneva, sans-serif;
+}
+
+
+
+.megalopolis {
+	font-family: Megalopolis, Helvetica, Arial, sans-serif;
+}
+
+a  {color: #3090c0;text-decoration: none;}
+
+
+h1 {
+	font: 80px/68px Megalopolis, Helvetica, Arial, sans-serif;
+	text-transform: uppercase;
+	color: #abd3e8;
+	letter-spacing: -3px;
+	margin-bottom: 30px;
+		font-weight: normal;
+
+
+}
+
+
+p.h1intro {
+	font: 16px/26px Megalopolis, Helvetica, Arial, sans-serif;
+	margin-top: -25px;
+	color: #666;
+	margin-bottom: 30px;
+		font-weight: normal;
+
+}
+
+h3 {
+	font: 32px/38px Megalopolis, Helvetica, Arial, sans-serif;
+	margin-bottom: 0;
+	font-weight: normal;
+}
+
+dt {
+	font-family: Megalopolis, Helvetica, Arial, sans-serif;
+	font-size: 16px;
+		font-weight: normal;
+
+
+}
+
+dd {
+	margin-bottom: 15px;
+	margin-left: 0;
+}
+
+/* Page Block Elements */
+
+#container {
+	width:  970px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+/* @group Header */
+
+#header {
+	width: 970px;
+	position: relative;
+}
+
+#logo {
+	text-indent: -9999px;
+		height: 147px;
+	background: url(../images/header.png) no-repeat left top;
+	margin-bottom: 5px;
+}
+
+#leaderboard {
+	width:  728px;
+	height:  90px;
+	position: absolute;
+	right: 0;
+	top: 44px;
+}
+
+#fontsearch {
+	position: absolute;
+	right: 15px;
+	bottom: 9px;
+	*bottom: 7px;
+}
+
+#fontsearch input{
+	width: 125px;
+}
+/* @group Super Nav */
+
+#supernav{
+	position: absolute;
+	top: 20px;
+	right: 0;
+}
+
+#supernav ul {
+	margin: 0;
+	padding: 0;
+}
+#supernav li {
+	float: left;
+	display: inline;
+	margin: 0 0 0 8px;
+	padding: 0 0 0 8px;
+	font-size: 11px;
+	border-left: 1px solid #777;
+	line-height: 12px;
+}
+
+#supernav li.first {
+	border:  none;
+}
+#supernav li a{
+	color: #fff;
+}
+#supernav li a:hover{
+	color: #ccc;
+}
+
+
+/* @end */
+
+/* @group Main Nav */
+
+#navigation {
+	height: 40px;
+	background: url(../images/nav_background.png) repeat-x;
+}
+
+#navigation ul {
+	padding: 0;	
+	height: 40px;
+	margin-left: 0;
+}
+
+#navigation li {
+	float: left;
+	display: inline;
+	margin: 0;
+	padding: 0;
+	text-indent: -9999px;
+}
+
+#navigation li a {
+	/* set the height of the nav bar in padding and height attr */
+/*	padding: 41px 0 0 0;
+	overflow: hidden;
+	height: 0px !important; */
+	height: 40px;
+	display: block;
+}
+
+#navigation a:hover {
+	/* set the background of nav sprite to second position */
+	background-position: 0 -40px;
+	}
+
+#navigation li.selected a {
+		/* set the background of nav sprite to third position */
+		background-position: 0 -80px;
+}
+
+
+#nav_home a {
+	/* set background image and width here */
+	
+	width: 84px;
+	background: url(../images/nav_home.png) no-repeat;
+}
+
+#nav_mostdownloaded a {
+	/* set background image and width here */
+	
+	width: 85px;
+	background: url(../images/nav_mostdownloaded.png) no-repeat;
+}
+
+#nav_newlyadded a {
+	/* set background image and width here */
+	
+	width: 77px;
+	background: url(../images/nav_newlyadded.png) no-repeat;
+}
+#nav_fontface a {
+	/* set background image and width here */
+	
+	width: 134px;
+	background: url(../images/nav_fontface.png) no-repeat;
+}
+
+#nav_generator a {
+	/* set background image and width here */
+	
+	width: 180px;
+	background: url(../images/nav_generator.png) no-repeat;
+}
+
+#nav_help a {
+	/* set background image and width here */
+	
+	width: 74px;
+	background: url(../images/nav_help.png) no-repeat;
+}
+#nav_blog a {
+	/* set background image and width here */
+	
+	width: 61px;
+	background: url(../images/nav_blog.png) no-repeat;
+}
+
+
+/* @end */
+
+/* @end */
+
+/* @group Footer */
+
+#footer {
+	font-size: 11px;
+	line-height: 12px;
+	position: relative;
+	height: 30px;
+}
+
+/* @group Footer Nav */
+
+#footernav{
+	position: absolute;
+	left: 0;
+	top: 10px;
+}
+
+#footernav ul {
+	margin: 0;
+	padding: 0;
+}
+#footernav li {
+	float: left;
+	display: inline;
+	margin: 0 8px 0 0;
+	padding: 0 8px 0 0;
+	border-right: 1px solid #777;
+}
+
+#footernav li.last {
+	border:none;
+}
+#footernav li a{
+	color: #fff;
+}
+
+#footernav li a:hover{
+	color: #ccc;
+}
+
+/* @end */
+
+#copyright {
+	position: absolute;
+	right: 0;
+	top: 10px;
+	color: #999;
+}
+#copyright a {
+	color: #fff;
+}
+
+/* @end */
+
+#main_content_container {
+	background-color: #fff;
+	width: 925px;
+	padding: 20px 15px 5px 30px;
+}
+#main_content {
+		background-image: url(../images/content_background.gif);
+}
+
+
+#full_sidebar {
+	float: left;
+	display: inline; 
+	width: 280px;
+	margin-left: 30px;
+
+}
+	
+#sidebar_ad {
+	width: 280px;
+	float: left;
+	background: #fff;
+	padding-bottom: 30px;
+}
+
+#sidebar1 {
+	width: 125px;
+	padding-right: 15px;
+	float: left;
+	position: relative;
+}
+
+#sidebar2 h3{
+	color: #fff;
+	background-color: #333;
+	font: 16px/11px Megalopolis;
+	text-transform: uppercase;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	margin: 0 0 7px;
+	padding: 8px;
+		font-weight: normal;
+
+}
+
+
+#sidebar2 ul{
+	margin: 0 0 15px;
+	list-style-type: none;
+}
+#sidebar2 li{
+	font-size: 11px;
+	line-height: 14px;
+	margin: 0;
+}
+#sidebar2 span{
+	float: right;
+	background-image: url(../images/number_pod_left.gif);
+	display: block;
+	_display: inline-block;
+	height: 12px;
+}
+#sidebar2 span span{
+	float: none;
+	line-height: 0px;
+
+	color: #fff;
+	background: url(../images/number_pod_right.gif) no-repeat right;
+	font-size: 10px;
+	font-weight: bold;
+	display: block;
+	height: 6px;
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-top: 6px;
+	/* ie hacks */
+		_display: inline-block;
+		*line-height: 10px;
+		*height: 12px;
+		*padding-top: 0px;
+	/* end ie hacks */
+}
+
+#sidebar2 p {
+	font-size: 11px;
+	line-height: 14px;
+}
+#sidebar2 {
+	width: 125px;
+	padding-left: 15px;
+	float: left;
+	position: relative;
+
+}
+#sidebar1 li{
+	font-size: 11px;
+	line-height: 14px;
+}
+.ad125x125 {
+	width: 125px;
+	height: 125px;
+	background-color: silver;
+	margin-bottom: 15px;
+}
+
+
+.ad125x250 {
+	width: 125px;
+	height: 250px;
+	background-color: silver;
+	margin-bottom: 15px;
+}
+/* In page Elements */
+
+img.fontimage{
+	width: 615px;
+	height: 60px;
+	background-color: black;
+}
+
+/* @group Pagination */
+
+
+
+.pagination {
+	display: inline-block;
+	margin-top: 15px;
+	margin-bottom: 20px;
+	font-size: 13px;
+	font-weight: bold;
+}
+.pagination strong,
+.pagination b {
+	color: #333;
+	background-color: #ddd;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.pagination a {
+	background-color: #d9ebf4;
+	color: #333;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+/* @end */
+
+
+
+/* @group New Font Detail Page Code */
+
+#font_detail_info {
+	padding-bottom: 20px;
+}
+
+#font_detail_info ul{
+	margin: 0;
+}
+#font_detail_info li{
+	margin: 0;
+	list-style-image: none;
+	display: inline;
+	font-size: 10px;
+	padding-left: 0;
+	padding-right: 20px;
+}
+
+#font_detail_header {
+	padding-bottom: 10px;
+	position: relative;
+	border-bottom: 1px dotted #ccc;
+}
+
+#font_detail_header h1{
+	letter-spacing: -1px;
+	margin-bottom: 0;
+	margin-top: 1px;
+	padding-top: 5px;
+	line-height: 24px;
+	font-size: 30px;
+	font-weight: bold;
+	color: #333;
+}
+#font_header_button {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+/*
+#font_header_price {
+	display: inline;
+	position: absolute;
+	top: 0;
+	right: 134px;
+	line-height: 13px;
+	font-size: 10px;
+	color: #999;
+	text-align: right;
+	margin-top: 4px;
+}
+*/
+#font_header_family_info {
+	font-size: 11px;
+}
+#font_detail_navigation {
+	list-style-type: none;
+	border-bottom: 1px dotted #ccc;
+	padding-bottom: 4px;
+	padding-left: 10px;
+	background-color: #eee;
+	margin: 0 0 10px;
+	padding-top: 7px;
+}
+
+#font_detail_navigation li{
+	margin: 0;
+	padding-left: 0;
+	display: inline;
+	padding-right: 30px;
+	font: bold 12px "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
+}
+#font_detail_navigation a.navdisabled{
+	color: #333;
+	cursor: text;
+}
+
+#panel_testdrive img {
+	margin-top: 60px;
+		margin-bottom: 40px;
+}
+
+
+#purchase_samples li {
+	margin-top: 10px;
+}
+#purchase_samples p.mini {
+	line-height: 1em;
+	color: #555;
+	margin-top: 3px;
+	margin-bottom: 10px;
+}
+
+.relatedcollections h3, .fontinfolist h3{
+	font-size: 14px;
+	line-height: 26px;
+	font-weight: bold;
+	margin: 0;
+	color: #333;
+}
+
+#product_info table {
+	width: 615px;
+}
+#product_info table td {
+		border-bottom: 1px dotted #ccc;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+#product_info table td.name {
+ width:  465px;
+}
+#product_info table td.price {
+	width:  60px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: right;
+}
+#product_info table td.button {
+	width:  150px;
+	text-align: right;
+}
+#product_info table td p {
+	margin: 0;
+}
+
+#product_info h3 {
+	margin-bottom: 8px;
+	margin-top: 24px;
+	background-color: #666;
+	color: #fff;
+	font-size: 14px;
+	font-weight: normal;
+	padding: 8px 5px 5px;
+}
+
+/* @end */
+
+.nicetable {
+	width: 100%;
+	margin-bottom: 15px;
+}
+.nicetable th {
+	text-align: left;
+}
+.nicetable th, .nicetable td {
+	padding: 6px;
+	border-bottom: 1px solid #ccc;
+}
+
+
+.nicetable tr.alt td {
+	background-color: #f0f7ff;
+}
+
+.fontface th          { 
+	font-weight: bold; 
+	background: #333; /*#C3D9FF;*/
+	text-align: left;
+	color:  #fff;
+}
+
+
+.fontface .hr td      { border-bottom: 1px solid #ddd;}
+.fontface  td       { padding: 20px 10px 20px 0;}
+.fontface th        { padding: 5px 10px;}
+.fontlistitem {
+	position: relative;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px dotted #ccc;
+}
+.priceburst {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.fontinfo {
+	font-size: 10px;
+	margin-top: 3px;
+}
+
+.fontinfo .links {
+	float: right;
+}
+.fontinfo .links a {
+	font-weight: bold;
+	font-size: 10px;
+}
+
+ 
+.box,
+.borderbox { 
+  padding: 18px; 
+  margin-bottom: 18px; 
+  background: #eee; 
+}
+
+.borderbox {
+	padding: 18px; 
+	margin-bottom: 18px; 
+	background: #eee; 
+	border: 1px solid #ccc;
+}	
+
+.minibox {
+	padding: 9px; 
+	margin-bottom: 18px; 
+	background: #eee; 
+	border: 1px solid #ccc;
+}
+
+.hero {
+	margin-bottom: 15px;
+}
+
+.admin_bar{
+	padding: 5px;
+	background-color: #e0f3fd;
+	font-weight: bold;
+}
+
+/* @group Alerts */
+
+div.alert_error_wrapper{
+	background-color: #fdd8d9;
+	padding: 15px;
+	margin-bottom: 20px;
+}
+div.alert_error_wrapper p {
+	margin: 0;
+}
+
+#alert_success {
+	color: #333;
+	padding: 20px 15px 15px 55px;
+	background-color: #c4dd77;
+}
+.alert p {
+	margin-bottom: 5px;
+}
+
+/* @end */
+
+
+
+
+
+/* @group Sidebar styles
+ */
+li.arrowdown a {
+	padding-left: 1em;
+	background: url(../images/arrow_down.png) no-repeat 0 center;
+}
+
+li.arrowright a {
+	padding-left: 1em;
+	background: url(../images/arrow_right.png) no-repeat 0 center;
+}
+
+li.arrowdown ul.sublist a, li.arrowright ul.sublist a {
+	background: none;
+}
+
+ul.sublist {
+	font-size: 10px;
+	line-height: 12px;
+	margin-left: 10px;
+	list-style-type: none;
+}
+
+
+.sidebar_banner {
+	margin-bottom: 15px;
+}
+
+
+/* @end */
